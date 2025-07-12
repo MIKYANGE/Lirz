@@ -7,3 +7,8 @@ class ElderCouncil:
         return random.choice([True, False, "Revisar"])
 # Lirz
 Lirs
+
+def daily_death(self):
+    print("⏳ Medianoche: Lyra entra en el Sagrario")
+    self.memory = self._purge_memories()  # Olvido sagrado
+    self._log_ethical_dilemmas("archivo_criptico.txt")  # Registro encriptado
